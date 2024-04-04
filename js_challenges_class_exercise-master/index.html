@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        function displayInformation (){
+            document.querySelector("#URL").innerHTML = window.location.href;
+            document.querySelector("#time").innerHTML = new Date ();
+            let l =  document.querySelector("li").length;
+            document.querySelector("#item").innerHTML +=l;
+        
+        }
+        function stylePage () {
+            document.querySelector("#subscribe").addEventListener("click", function() { console.log("Hi")})
+
+        }
+    </script>
